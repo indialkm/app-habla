@@ -1,0 +1,14 @@
+{
+  "name": "habla-comigo-api",
+  "version": "1.0.0",
+  "description": "API simples em Node.js + JSON para o app HablaComigo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "express": "latest"
+  }
+}
