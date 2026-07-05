@@ -1,0 +1,70 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Carlinha do RH",
+      "email": "carlinha@habla.com",
+      "senha": "123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Usuário Teste",
+      "email": "user@habla.com",
+      "senha": "123",
+      "role": "user"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "tipo": "reclamacao",
+      "mensagem": "Sistema lento na abertura de chamado.",
+      "anonimo": true,
+      "usuarioId": 2,
+      "setor": "RH",
+      "nota": 2,
+      "data": "2026-07-04T13:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "tipo": "elogio",
+      "mensagem": "Ótimo atendimento da equipe de TI!",
+      "anonimo": false,
+      "usuarioId": 2,
+      "setor": "TI",
+      "nota": 7,
+      "data": "2026-07-05T15:09:06.338Z"
+    },
+    {
+      "id": 3,
+      "tipo": "reclamacao",
+      "mensagem": "Achei que fui mal atendido",
+      "anonimo": true,
+      "usuarioId": 2,
+      "setor": "RH",
+      "nota": 2,
+      "data": "2026-07-05T21:29:48.183Z"
+    },
+    {
+      "id": 4,
+      "tipo": "elogio",
+      "mensagem": "Gosto da Carlinha do Rh muito proativa",
+      "anonimo": false,
+      "usuarioId": 1,
+      "setor": "RH",
+      "nota": 7,
+      "data": "2026-07-05T21:30:55.767Z"
+    },
+    {
+      "id": 5,
+      "tipo": "sugestao",
+      "mensagem": "Acho que deveria ter um SLA menor para antedimentos sobre vale transporte",
+      "anonimo": false,
+      "usuarioId": 1,
+      "setor": "RH",
+      "nota": 4,
+      "data": "2026-07-05T21:49:37.352Z"
+    }
+  ]
+}
